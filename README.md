@@ -184,3 +184,4 @@ Set `CATALOG_BACKEND=unity` or `snowflake` and follow `docs/CONNECT_REAL_CATALOG
 | `ImportError: FastMCP` | `mcp` 2.x renamed it `MCPServer`; `server.py` already handles both |
 | Agent says it cannot find a table | Check `CATALOG_ALLOWED_SCHEMAS` and the glossary; read `logs/audit.jsonl` |
 | Approve says "second lock" | Set `CATALOG_ALLOW_WRITE=1` for that one command, on purpose |
+"# tiger_de" 
