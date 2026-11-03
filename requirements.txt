@@ -1,0 +1,9 @@
+mcp>=1.10          # tested on 1.30.0 and 2.3.0
+anthropic>=0.40    # only needed for client/agent.py
+pydantic>=2
+pytest>=8
+pyyaml>=6          # only used by the dbt-export test
+
+# Real catalogs (install only what you use):
+# databricks-sdk>=0.30
+# snowflake-connector-python>=3.10

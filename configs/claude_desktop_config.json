@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "cpg-catalog": {
+      "command": "/ABSOLUTE/PATH/TO/mcp-catalog-lab/.venv/bin/python",
+      "args": ["-m", "catalog_mcp.server"],
+      "env": {
+        "PYTHONPATH": "/ABSOLUTE/PATH/TO/mcp-catalog-lab",
+        "CATALOG_BACKEND": "sqlite",
+        "CATALOG_ALLOWED_SCHEMAS": "cpg"
+      }
+    }
+  }
+}
